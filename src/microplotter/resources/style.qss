@@ -1,0 +1,12 @@
+/* Application stylesheet, loaded in microplotter.app.create_app.
+   Qt Style Sheets are a CSS subset: https://doc.qt.io/qt-6/stylesheet-reference.html */
+
+QLabel#heading {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+QProgressBar {
+    height: 18px;
+    text-align: center;
+}
